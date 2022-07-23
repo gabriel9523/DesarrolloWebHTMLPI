@@ -49,6 +49,18 @@ nav a :hover {
 
     text-decoration: underline;
 } 
+
+ul {
+    list-style: none;
+    padding: 0;
+    padding: 0;
+}
+
+ol li {
+
+    margin-bottom: 6%;
+}
+
 header h1 {
     font-size: 41px;
     font-weight: 700;
@@ -80,6 +92,36 @@ h4 {
     line-height: 100px;
     padding: 10px;
 }
+
+form{
+
+    margin: auto;
+}
+
+label {
+
+    display: block;
+    margin-bottom: 5px;
+}
+
+span {
+
+    color: red;
+
+}
+
+input {
+
+    height: 40px;
+
+}
+
+input , textarea {
+
+    width: 100%;
+
+}
+
 footer {
     background-color: #fcee21;
 }
