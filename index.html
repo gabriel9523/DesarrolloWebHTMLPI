@@ -11,56 +11,54 @@
 
 <body>
     <nav>
-        <h1>wwwapas</h1>
-        <ul>
-            <li>
+        <div class="barraDeNavegacion">
+            <h1 class="">wwwapas</h1>
+            <div class="links">
                 <a href="#">Inicio</a>
                 <a href="#servicios">Servicios</a>
                 <a href="#contacto">Contacto</a>
-            </li>
-        </ul>
+            </div>
+        </div>
     </nav>
     <header>
-        <section>
+        <section class="contenedor">
             <h1>somos <strong>wwwapas</strong></h1>
             <h2>social media managers | creadoras de contenido</h2>
-            <p>Nos encargamos de construir, gestionar y administrar la comunidad online de tu marca, empresa o negocio.
+            <p id="parrafo">Nos encargamos de construir, gestionar y administrar la comunidad online de tu marca,
+                empresa o negocio.
                 <strong>¡Creamos relaciones estables y duraderas con tus clientes!</strong>
             </p>
         </section>
-        <section>
-            <img src="./img/foto.png" alt="imagen wapas">
-        </section>
+
     </header>
     <main>
-        <div>
-            <section>
-                <h3>¡Hola! Somos SOFI & JULIA,</h3>
-                <p>las social media managers, las creadoras de contenido, las copywriters, las generadoras de leads, las
-                    diseñadoras, las estrategas en marketing digital, las potenciadoras de ventas, el posicionamiento de
-                    tu
-                    marca.
-                    <strong>¡Somos el complemento que necesitás para hacer crecer tu marca! ¡Somos wwwapas!</strong>
-                </p>
-            </section>
-            <section>
+        <section class="contenedor">
+            <img src="./img/foto.png" alt="imagen wapas">
+            <h3>¡Hola! Somos SOFI & JULIA,</h3>
+            <p>las social media managers, las creadoras de contenido, las copywriters, las generadoras de leads, las
+                diseñadoras, las estrategas en marketing digital, las potenciadoras de ventas, el posicionamiento de
+                tu
+                marca.
+                <strong>¡Somos el complemento que necesitás para hacer crecer tu marca! ¡Somos wwwapas!</strong>
+            </p>
+        </section>
+        <section class="contenedor">
 
-                <h3>GESTIONAMOS TUS REDES SOCIALES</h3>
+            <h3>GESTIONAMOS TUS REDES SOCIALES</h3>
 
-                <p>La transformación digital no es solo para grandes compañías, todas las empresas deben emprenderla
-                    cuanto
-                    antes y
-                    aquí es donde podemos asistirte. Armamos estrategias a medida para tu empresa, marca o producto.
-                    <strong>¡Aumentá tu presencia digital y generá nuevas ventas y contactos!</strong>
-                </p>
-            </section>
-        </div>
-        <div id="servicios">
+            <p>La transformación digital no es solo para grandes compañías, todas las empresas deben emprenderla
+                cuanto
+                antes y
+                aquí es donde podemos asistirte. Armamos estrategias a medida para tu empresa, marca o producto.
+                <strong>¡Aumentá tu presencia digital y generá nuevas ventas y contactos!</strong>
+            </p>
+        </section>
+
+        <div class="encolumnar" id="servicios">
             <section>
                 <img src="./img/img-servicios.png" alt="imagen servicios">
-            </section>
-            <section>
-                <h2>servicios</h2>
+
+                <h3>servicios</h3>
                 <ol>
 
                     <li>Análisis de perfil (Benchmarking)</li>
@@ -69,33 +67,32 @@
                     <li>Repuestas a mensajes y consultas</li>
                     <li>Segmentación de promociones según el público objetivo de la pauta publicitaria</li>
                     <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
-                    <li><strong> ¡Empezamos a comunicar!</strong></li>
+                    <li class="color"> ¡Empezamos a comunicar!</li>
 
                 </ol>
             </section>
         </div>
-        <div id="contacto">
-            <section>
-                <h4>¿Quéres que nos <br>
-                    contactemos con vos?
-                </h4>
-                <p>Envianos tu consulta >></p>
-                <form method="POST" action="./php/action.php">
-                    <label for="">Nombre<span>*</span>:<br>
-                        <input name="nombre" required type="text"></label><br>
-                    <label for="">Email<span>*</span>:<br>
-                        <input name="email" required type="text"></label><br>
-                    <label for="">Mensaje<span>*</span>:<br>
-                        <textarea required name="comentarios" id="" cols="30" rows="10"></textarea> </label>
-                </form>
-                <div>
-                    <input type="submit" value="Enviar consulta">
-                    <input type="reset" value="Borrar">
-                </div>
-            </section>
-        </div>
+        <section class="contenedor">
+            <h4 id="enunciado">¿Quéres que nos <br>
+                contactemos con vos?
+            </h4>
+            <p>Envianos tu consulta >></p>
+            <form method="POST" action="./php/action.php">
+                <label for="">Nombre<span>*</span>:<br>
+                    <input name="nombre" required type="text"></label><br>
+                <label for="">Email<span>*</span>:<br>
+                    <input name="email" required type="text"></label><br>
+                <label for="">Mensaje<span>*</span>:<br>
+                    <textarea required name="comentarios" id="" cols="30" rows="10"></textarea> </label>
+            </form>
+            <div>
+                <input type="submit" value="Enviar consulta">
+                <input type="reset" value="Borrar">
+            </div>
+        </section>
+
     </main>
-    <aside>
+    <aside id="redes">
         <a href=""><img src="./img/instagram-icon.png" alt="Link Instagram"></a>
         <a href=""><img src="./img/dribbble-icon.png" alt="Link dribble"></a>
         <a href=""><img src="./img/linkedin-icon.png" alt="Link LinkedIn"></a>
@@ -107,7 +104,6 @@
     </footer>
 
 </body>
-
 
 
 </html>
