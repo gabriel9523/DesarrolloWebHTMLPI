@@ -1,54 +1,154 @@
+/* -------------Generals--------------*/
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
 
 *{
     box-sizing: border-box;
 }
 
+/*------------Body-----------------*/
 body {
     color: #333;
     font: 400;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-
 }
-
-header , main , aside, footer {
+header , main , aside, footer, nav {
 
     width: 100%;
-}
-section {
-
-    width: 45%;
 }
 
 nav {
 
     padding: 20px;
+    align-items: center;
+    border-bottom: 20px;
 }
 
-nav h1, footer h1 {
-    font-family: 'Coiny',cursive;
-}
 nav h1 {
+    font-family: 'Coiny',cursive;
     margin-right: auto;
+    }
+
+nav ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    
 }
-nav a ,footer a {
+nav a {
 
     margin-left: 20px;
     color: #7a7a7a;
     text-decoration: none;
-
 }
+
 nav a {
 
     text-transform: capitalize;
 }
 
-nav a :hover {
+nav a:hover {
 
     text-decoration: underline;
 } 
+
+/*------------Navbar-----------------*/
+header h1 {
+    font-size: 41px;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    margin-left: 30%;
+}
+
+#parrafo {
+    font-size: 32px;
+    
+}
+
+/*------------Main-----------------*/
+
+main {
+    font-size: 21px;
+}
+/*------------Titles-----------------*/
+h1 {
+    font-size: 64px;
+    }
+
+h1 , strong {
+    
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: none;
+    font-size: 26px;
+    background-color: #fcee21;
+    }
+
+h3 {
+    font-size: 26px;
+    background-color: #fcee21;
+}
+
+h4 {
+    font-size: 68px;
+    color: white;
+    background-color: black;
+    margin: 0;
+    line-height: 100px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+h1,h2,h3,h4 {
+    color: black;
+}
+/*------------Sections-----------------*/
+
+section {
+
+    width: 50%;
+}
+
+/*------------Containers-----------------*/
+
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom: 1px solid gray
+}
+
+.contenedor img {
+    width: 100%;
+    height: auto;
+    margin: 24px;
+}
+
+#enunciado {
+        
+    font-weight: 700;
+    font-size: 68px; 
+    background-color: black;
+    color: white;
+}
+
+/*------------Images-----------------*/
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 24px;
+}
+
+/*------------Images-----------------*/
 
 ul {
     list-style: none;
@@ -56,71 +156,128 @@ ul {
     padding: 0;
 }
 
+/*------------Paragraps-----------------*/
+
+p {
+    font-size: 28px;
+    
+}
+
+/*------------Links-----------------*/
+
+a {
+    
+    color: black;
+    text-decoration: none;
+}
+
+#links a {
+    text-transform: capitalize;
+
+}
+
+#link a:hover {
+    text-decoration: underline;
+} 
+/*------------List-----------------*/
+
+ul {
+    list-style: none;
+    padding: 0;
+    padding: 0;
+}
+
+ol {
+    font-size: 32px;
+    font-weight: 400;
+    list-style: inside;
+    padding: 0;
+    padding: 0;
+}
 ol li {
 
     margin-bottom: 6%;
 }
 
-header h1 {
-    font-size: 41px;
-    font-weight: 700;
-}
-main {
-    font-size: 21px;
-}
-
-h1,h2,h3,h4 {
-    color: black;
+.encolumnar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h2 {
+/*------------Color-----------------*/
 
-    font-weight: none;
-}
-h2,h3 {
-    font-size: 29px;
+.color {
     background-color: #fcee21;
-}
-h3 {
-    font-size: 26px;
-}
-h4 {
-    font-size: 51px;
-    color: white;
-    background-color: black;
-    margin: 0;
-    line-height: 100px;
-    padding: 10px;
+    font-weight: 700;
+    font-size: 44px;
 }
 
-form{
+/*------------Form-----------------*/
+form {
 
     margin: auto;
+    width: 100%;
 }
 
 label {
 
     display: block;
     margin-bottom: 5px;
+    font-size: 27px;
 }
+
+input {
+
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    height: 40px;
+
+}
+
+input [type='reset'],input [type='submit'] {
+    
+    width: 49.7%;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;   
+    cursor: pointer;
+
+}
+
+textarea {
+
+    border: 1px solid black;
+    width: 100%;
+
+}
+
 
 span {
 
     color: red;
 
 }
+/*------------Aside-----------------*/
 
-input {
-
-    height: 40px;
-
+aside img {
+    width: 8.33%;
+    height: auto;
 }
 
-input , textarea {
-
-    width: 100%;
-
+#redes img:hover {
+    opacity: 0.5;
 }
+a img {
+    display: block;
+    margin: 25px auto 0px auto;
+}
+
+/*------------Footer-----------------*/
 
 footer {
     background-color: #fcee21;
@@ -130,4 +287,13 @@ footer h1 {
     height: 100px;
     padding: 10px;
     background-color: #fcee21;
+    font-family: 'Coiny',cursive;
 }
+footer a {
+
+    margin-left: 20px;
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+
